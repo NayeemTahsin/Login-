@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Chakra+Petch:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  background:#afeeee;
+}
+.main{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+
+}
+.box h1{ font-size: 20px;
+  font-family: 'Changa', sans-serif;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  outline: none;
+  background: none;
+}
+.fontuser,.fontpass{
+  position: absolute;
+}
+.fontuser i,.fontpass i{
+  position: absolute;
+  background: none;
+  left: 11px;
+  top:13px;
+  color: black;
+}
+ .box{
+position:absolute;
+border: 1px solid gray;
+width:320px;
+height: 85vh;
+top:50%;
+left: 50%;
+background-image:linear-gradient(45deg,#d2691e,#008b8b,#d2691e);
+transform: translate(-50%,-50%);
+padding: 30px;
+box-shadow: -4px 4px 4px black;
+border-radius: 2px;
+}
+
+.box input[type="text"],.box input[type="password"],.box [type="email"]{
+ position: relative;
+ display:block;
+ width: 100%;
+ outline: none;
+ text-align: center;
+   border: 2px solid white;
+   display:block;
+   background: none;
+   padding:10px 40px;
+   margin-bottom: 30px;
+   font-size: 13px;
+   border-radius: 8px;
+   outline: none;
+   color:white;
+   font-weight:bold;
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus,.box [type="email"]:focus{
+    border-color:#66cdaa;
+      box-shadow: -4px 4px 4px black;
+}
+::placeholder{
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+  color: black;
+
+}
+.box h5 {
+  font-size: 17px;
+  color: black;
+  background: none;
+  font-family: 'Akaya Kanadaka', cursive;
+}
+.box h5 a {
+    color:#afeeee;
+    font-size: 17px;
+    background: none;
+    font-family: 'Akaya Kanadaka', cursive;
+}
+.box input[type="submit"]{
+  border: 3px solid white;
+  padding-bottom: 5%;
+  width:50%;
+  background:none;
+  display: block;
+  padding: 6px;
+  margin: 40px auto;
+  font-size: 20px;
+  outline: none;
+  font-weight: bold;
+  color: black;
+  border-radius: 7px;
+  text-transform: capitalize;
+font-family: 'Slabo 27px', serif;
+transition: transform .4s ease;
+}
+.box input[type="submit"]:hover{
+  background: #00bbff;
+  color: black;
+  box-shadow: 0 0 10px #2196f3,0 0 15px #2196f3,0 0 20px #2196f3;
+  font-weight: bolder;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+@media only screen and (max-width:300px){
+
+.box{ width:88vw;
+height:85vh;
+top:30%;}
+.box input[type="text"],.box input[type="password"],.box [type="email"]{
+  margin-bottom: 15px;}
+
+}
+@media only screen and (max-width:400px){
+
+.box{ width:85vw;
+height:85vh;
+top:30%;}
+.box input[type="text"],.box input[type="password"],.box [type="email"]{
+  margin-bottom: 20px;}
+  .box h5 {
+    font-size: 14px;
+  }
+  .box h5 a{
+    font-size: 14px;
+  }
+
+}
+@media only screen and (max-width:1000px){
+
+.box{ height: 75vh; top:50%;}
+}
+@media only screen and (min-width:1000px){
+
+.box{ height: 75vh; top:45%;}
+}
