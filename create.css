@@ -102,7 +102,7 @@ border-radius: 2px;
   color: black;
   border-radius: 7px;
   text-transform: capitalize;
-font-family: 'Slabo 27px', serif;
+  font-family: 'Chakra Petch', sans-serif;
 transition: transform .4s ease;
 }
 .box input[type="submit"]:hover{
