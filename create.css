@@ -90,7 +90,7 @@ border-radius: 2px;
 }
 .box input[type="submit"]{
   border: 3px solid white;
-  padding-bottom: 5%;
+  padding-bottom: 2%;
   width:50%;
   background:none;
   display: block;
