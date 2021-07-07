@@ -101,7 +101,6 @@ border-radius: 2px;
   font-weight: bold;
   color: black;
   border-radius: 7px;
-  text-transform: capitalize;
   font-family: 'Chakra Petch', sans-serif;
 transition: transform .4s ease;
 }
