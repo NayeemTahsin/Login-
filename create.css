@@ -115,7 +115,7 @@ transition: transform .4s ease;
 @media only screen and (max-width:300px){
 
 .box{ width:88vw;
-height:85vh;
+height:400px;
 top:30%;}
 .box input[type="text"],.box input[type="password"],.box [type="email"]{
   margin-bottom: 15px;}
@@ -124,7 +124,7 @@ top:30%;}
 @media only screen and (max-width:400px){
 
 .box{ width:85vw;
-height:85vh;
+height:400px;
 top:30%;}
 .box input[type="text"],.box input[type="password"],.box [type="email"]{
   margin-bottom: 20px;}
