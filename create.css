@@ -6,7 +6,7 @@
   padding: 0;
   font-family: sans-serif;
   box-sizing: border-box;
-  background:#afeeee;
+  background:#5f9ef0;
 }
 .main{
   width: 100%;
@@ -16,14 +16,15 @@
 }
 .box h1{ font-size: 20px;
   font-family: 'Changa', sans-serif;
-  padding-top: 10px;
+  padding-top: 12px;
   padding-bottom: 15px;
   text-align: center;
-  color: white;
+  color: black;
   text-transform: uppercase;
   outline: none;
   background: none;
 }
+
 .fontuser,.fontpass,.fontarrow{
   position: absolute;
 }
@@ -45,15 +46,15 @@ outline: none;
 }
  .box{
 position:absolute;
-border: 1px solid gray;
+border: 1.5px solid gray;
 width:320px;
 height: 85vh;
 top:50%;
 left: 50%;
-background-image:linear-gradient(45deg,#008000,#ff0000,#008000);
+background:;
 transform: translate(-50%,-50%);
 padding: 30px;
-box-shadow: -4px 4px 4px black;
+box-shadow: -4px 4px 4px #888;
 border-radius: 2px;
 }
 
@@ -64,15 +65,16 @@ border-radius: 2px;
  outline: none;
  text-align: center;
    border: 2px solid white;
-	font-family: 'Chakra Petch', sans-serif;	
    display:block;
-   background: none;
+   background:#afeeee;
+   z-index: -1;
    padding:10px 40px;
    margin-bottom: 30px;
    font-size: 13px;
    border-radius: 8px;
    outline: none;
    color:white;
+   font-family: 'Chakra Petch', sans-serif;
    font-weight:bold;
 }
 .box input[type="text"]:focus,.box input[type="password"]:focus,.box [type="email"]:focus{
@@ -91,6 +93,7 @@ border-radius: 2px;
   color: black;
   background: none;
   font-family: 'Akaya Kanadaka', cursive;
+
 }
 .box h5 a {
     color:#afeeee;
@@ -98,11 +101,13 @@ border-radius: 2px;
     background: none;
     font-family: 'Akaya Kanadaka', cursive;
 }
+
+
 .box input[type="submit"]{
   border: 3px solid black;
   padding-bottom: 5%;
   width:50%;
-  background:white;
+  background:#afeeee;
   display: block;
   padding: 6px;
   margin: 40px auto;
