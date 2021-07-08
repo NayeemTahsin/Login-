@@ -24,8 +24,17 @@
   outline: none;
   background: none;
 }
-.fontuser,.fontpass{
+.fontuser,.fontpass,.fontarrow{
   position: absolute;
+}
+.fontarrow i{
+  position: absolute;
+  left:-15px;
+  top:-10px;
+background:none;
+color: black;
+outline: none;
+
 }
 .fontuser i,.fontpass i{
   position: absolute;
