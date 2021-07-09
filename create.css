@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Chakra+Petch:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Teko:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Changa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@100&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -46,15 +46,15 @@ outline: none;
 }
  .box{
 position:absolute;
-border: 2px solid white;
+border: 1.5px solid gray;
 width:320px;
 height: 85vh;
 top:50%;
 left: 50%;
-background:none;
+background:;
 transform: translate(-50%,-50%);
 padding: 30px;
-box-shadow: -4px 4px 4px black;
+box-shadow: -4px 4px 4px #888;
 border-radius: 2px;
 }
 
@@ -73,7 +73,7 @@ border-radius: 2px;
    font-size: 13px;
    border-radius: 8px;
    outline: none;
-   color:black;
+   color:white;
    font-family: 'Chakra Petch', sans-serif;
    font-weight:bold;
 }
@@ -92,14 +92,14 @@ border-radius: 2px;
   font-size: 17px;
   color: black;
   background: none;
-  font-family: 'Akaya Kanadaka', cursive;
+font-family: 'Chakra Petch', sans-serif;
 
 }
 .box h5 a {
     color:#afeeee;
     font-size: 17px;
     background: none;
-    font-family: 'Akaya Kanadaka', cursive;
+font-family: 'Chakra Petch', sans-serif;
 }
 
 
@@ -138,6 +138,13 @@ top:30%;}
   margin-bottom: 15px;}
 
 }
+
+
+}
+@media only screen and (max-width:300px){
+  .box input[type="submit"]{ margin:30px auto;}
+
+}
 @media only screen and (max-width:400px){
 
 .box{ width:85vw;
@@ -146,13 +153,14 @@ top:30%;}
 .box input[type="text"],.box input[type="password"],.box [type="email"]{
   margin-bottom: 20px;}
   .box h5 {
-    font-size: 14px;
+    font-size: 15px;
   }
   .box h5 a{
-    font-size: 14px;
+    font-size: 15px;
   }
-
+  .box input[type="submit"]{ margin:30px auto;}
 }
+
 @media only screen and (max-width:1000px){
 
 .box{ height: 75vh; top:50%;}
